@@ -6,7 +6,7 @@ class ShortAnswerQuestion : public Question
 {
 public:
 	ShortAnswerQuestion(const std::string& questionText,
-						const std::string& correctAnswer);
+			    const std::string& correctAnswer);
 
 	virtual bool IsThisAnswerCorrect(const std::string& answer) override;
 
