@@ -2,7 +2,7 @@
 
 // Set up the question and everything needed moving forward
 Question::Question(const std::string& questionText,
-				   const std::string& correctAnswer)
+		   const std::string& correctAnswer)
 	: QuestionText(questionText),
 	CorrectAnswer(correctAnswer)
 {
