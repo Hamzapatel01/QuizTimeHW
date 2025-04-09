@@ -2,8 +2,8 @@
 #include <iostream>
 
 MultipleChoiceQuestion::MultipleChoiceQuestion(const std::string& questionText,
-											const std::vector<std::string>& possibleAnswersText,
-											const std::string& answerText)
+						const std::vector<std::string>& possibleAnswersText,
+						const std::string& answerText)
 	: Question(questionText, answerText),
 	possibleAnswers(possibleAnswersText)
 {
