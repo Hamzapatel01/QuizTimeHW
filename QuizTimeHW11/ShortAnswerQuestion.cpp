@@ -1,7 +1,7 @@
 #include "ShortAnswerQuestion.h"
 
 ShortAnswerQuestion::ShortAnswerQuestion(const std::string& questionText,
-										 const std::string& correctAnswer)
+					const std::string& correctAnswer)
 	: Question(questionText, correctAnswer)
 {
 	// Nothing goes here...
