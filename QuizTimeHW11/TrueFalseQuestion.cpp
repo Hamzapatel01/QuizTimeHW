@@ -1,7 +1,7 @@
 #include "TrueFalseQuestion.h"
 
 TrueFalseQuestion::TrueFalseQuestion(const std::string& questionText,
-									 const std::string& answerText)
+				     const std::string& answerText)
 	: MultipleChoiceQuestion(questionText,
 		std::vector<std::string> { "True", "False"},
 		answerText)
